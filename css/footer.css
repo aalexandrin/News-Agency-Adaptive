@@ -1,0 +1,123 @@
+.footer {
+    color: white;
+    background-color: #00122f;
+}
+
+.footer .fixed-container.content {
+    display: flex;
+
+    padding-top: 55px;
+    padding-bottom: 57px;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.footer-menu .footer-list {
+    column-count: 2;
+}
+
+.footer-nav-item {
+    margin-right: 23px;
+    margin-bottom: 14px;
+}
+
+.footer-about {
+    padding-top: 5px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+    margin-left: -2px;
+}
+
+.footer-about-item {
+    margin-bottom: 14px;
+    margin-left: 2px;
+}
+
+.footer-about-item:last-child {
+    margin: 0;
+}
+
+.contacts {
+    margin-top: 2px;
+}
+
+.social-icons {
+    display: flex;
+
+    margin-bottom: 40px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 21px;
+
+    border-radius: 20px;
+}
+
+.social-icon:last-child {
+    margin-right: 0;
+}
+
+.vk {
+    background-image: url('../img/icon-vk.png');
+}
+
+.facebook {
+    background-image: url('../img/icon-facebook.png');
+}
+
+.twitter {
+    background-image: url('../img/icon-twitter.png');
+}
+
+.instagram {
+    background-image: url('../img/icon-instagram.png');
+}
+
+.tel-email {
+    font-size: 18px;
+}
+
+.tel {
+    margin-bottom: 25px;
+    padding-left: 32px;
+
+    background-image: url('../img/icon-tel.png');
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+
+.mail {
+    padding-left: 33px;
+
+    background-image: url('../img/icon-mail.png');
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    line-height: 22px;
+
+    margin: 0;
+    padding: 14px 0 15px 0;
+
+    text-align: center;
+
+    opacity: .4;
+}
+
+.footer-copyright {
+    border-top: 1px solid rgba(255,255,255,.15);
+}

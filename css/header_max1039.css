@@ -1,0 +1,14 @@
+@media (max-width: 1039px) {
+    .search-form {
+        margin-top: 5px;
+        /*margin-left: auto;*/
+    }
+
+    .search-form .text-field {
+        /*display: none;*/
+    }
+
+    .search-button {
+        /*position: static;*/
+    }
+}

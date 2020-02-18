@@ -1,0 +1,53 @@
+.banners {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 250px;
+}
+
+.banners-img {
+    margin-bottom: 20px;
+}
+
+.banners-img:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1039px) {
+    .banners {
+        flex-direction: row;
+        margin: 0 auto 20px;
+    }
+
+    .banners-img {
+        height: 400px;
+        margin: 0;
+        margin-right: 25px;
+    }
+
+    .banners-img:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .banners {
+        overflow: scroll;
+        flex-direction: row;
+
+        margin-bottom: 49px;
+        padding-left: 25px;
+
+        flex-basis: 320px;
+        order: 2;
+    }
+
+    .banners-img {
+        margin: 0;
+        margin-right: 25px;
+    }
+
+    .banners-img:last-child {
+        margin-right: 0;
+    }
+}

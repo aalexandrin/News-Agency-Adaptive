@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .no-js .logotype {
+        margin: 0 0 55px 52px;
+    }
+
+    .no-js .main-menu {
+        position: static;
+
+        visibility: visible;
+
+        padding: 0;
+
+        opacity: 1;
+        background-image: none;
+    }
+
+    .no-js .menu-button {
+        display: none;
+    }
+
+    .no-js .menu-container {
+        width: 100%;
+        margin-top: 40px;
+
+        order: 3;
+    }
+}
